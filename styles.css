@@ -5,10 +5,35 @@
     border: 0 !important;
 }
 
+body {
+    height: 100vh;
+}
+
+.main_body {
+    height: 100%;
+    background-color: rgb(147, 155, 155);
+}
+
 /* Header Section */
 
 header {
-    min-height: 40px !important;
+    min-height: 55px !important;
     background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);
-  }
+    background: rgba(0, 0, 0, 0.7);
+    display: flex !important;
+    align-items: center !important;
+}
+
+.nav-link {
+    transition: text-shadow 0.3s;
+}
+
+.nav-link:hover {
+    color: aqua !important;
+    text-shadow: 0 0 15px rgb(0, 255, 255);
+}
+
+/* Main Section */
+
+main {
+}

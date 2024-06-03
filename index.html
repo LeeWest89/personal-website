@@ -21,30 +21,30 @@
     <script src="scripts.js"></script>
 </head>
 <body>
-    <div class="main_body" id="backgroundPic">
+    <div class="main_body">
         <header>
             <div class="container mx-auto w-50 align-items-center">
                 <nav class="navbar navbar-expand-sm">
                     <div class="navbar-container container">
                         <ul class="navbar-nav d-flex justify-content-around w-100">
                             <li class="nav-item">
-                                <a class="nav-link text-white " href="#">About</a>
+                                <a class="nav-link text-white " href="#" data-section="about">About</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Projects <span class="caret"><img id="icon" class="natural" src="./images/caret.svg" alt="caret"></span>
                                 </a>
                                 <div class="dropdown-menu pl-2 pr-2" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item text-center text-white" href="#">Garden of Dreams</a>
-                                    <a class="dropdown-item text-center text-white" href="#">Yuletide Shiver</a>
-                                    <a class="dropdown-item text-center text-white" href="#">AirBnB clone - Web dynamic</a>
+                                    <a class="dropdown-item text-center text-white" href="#" data-section="garden">Garden of Dreams</a>
+                                    <a class="dropdown-item text-center text-white" href="#" data-section="yuletide">Yuletide Shiver</a>
+                                    <a class="dropdown-item text-center text-white" href="#" data-section="airbnb">AirBnB clone - Web dynamic</a>
                                 </div>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-white " href="https://docs.google.com/document/d/1nkl2cCNAhshWiXtsD9i51zQJj0j5ZIjUxml2LlSWq0c/edit?usp=sharing" target="_blank">Resume</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white " href="#">Contact</a>
+                                <a class="nav-link text-white " href="#" data-section="contact">Contact</a>
                             </li>
                             <li class="nav-item">
                                 <a class="svg-link nav-link" id="svg-link" href="https://github.com/LeeWest89/" target="_blank">
@@ -68,38 +68,7 @@
         <main class="d-flex align-items-center">
             <div class="container mx-auto w-55">
                 <div class="row  align-items-center">
-                    <div class="col-md-7">
-                        <!-- <div class="about text-white text-center font-weight-bold">
-                            Aspiring web developer with a full year of full stack development experience, possessing key strengths in front-end and back-end development. Demonstrating proficiency in collaborative team environments, focusing on creating dynamic, responsive websites and applications that prioritize user experience and performance.
-                        </div> -->
-                        <!-- <div class="contact text-white text-center font-weight-bold">
-                            Contact me at: <br>
-                            Email: <a href="mailto:lee.west@atlasschool.com" class="email text-decoration-none text-white">lee.west@atlasschool.com</a> <br>
-                            Phone: (405)448-1629
-                        </div> -->
-                        <!-- <div class="project text-white text-center font-weight-bold">
-                            <h1>Garden of Dreams:</h1> <br>
-                            A website to help gardeners gather information on local plant species that can thrive in the region. <br>
-                            <br>
-                            <img class="w-100" src="./images/Garden.jpg" alt="Garden of dreams homepage">
-                            Link: <a href="https://leewest89.github.io/GardenOfDreams/#" target="_blank" class="project_link text-decoration-none text-white">Garden of Dreams</a> <br>
-                            <br>
-                        </div> -->
-                        <!-- <div class="project text-white text-center font-weight-bold">
-                            <h1>Yuletide Shiver:</h1> <br>
-                            A short choose your own adventure horror theme christmas game. <br>
-                            <br>
-                            <img class="w-100" src="./images/Yule.jpg" alt="Yuletide Shiver gameplay page">
-                            Link: <a href="https://hacksprint-2023-6d4cc.web.app/" target="_blank" class="project_link text-decoration-none text-white">Yuletide Shiver</a> <br>
-                            <br>
-                        </div> -->
-                        <div class="project text-white text-center font-weight-bold">
-                            <h1>AirBnB clone - Web dynamic:</h1> <br>
-                            Groundwork for a website featuring functional filters for user-selected locations. <br>
-                            <br>
-                            Github Link: <a href="https://github.com/LeeWest89/holbertonschool-AirBnB_clone_v4" target="_blank" class="project_link text-decoration-none text-white">AirBnB clone - Web dynamic</a> <br>
-                            <br>
-                        </div>
+                    <div id="content" class="col-md-7">
                     </div>
                     <div class="col-md-5 text-center">
                         <img class="my_img w-50 text-white rounded-circle" src="./images/headshot.jpg" alt="Image of Lee West">

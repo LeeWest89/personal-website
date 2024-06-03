@@ -17,7 +17,7 @@ body {
 /* Header Section */
 
 header {
-    min-height: 55px !important;
+    min-height: 7vh !important;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.7);
     display: flex !important;
@@ -36,4 +36,21 @@ header {
 /* Main Section */
 
 main {
+    height: 93vh;
+    display: flex !important;
+    align-items: center !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+.about, .contact, .project {
+    font-size: 20px;
+}
+
+.email {
+    transition: text-shadow 0.3s;
+}
+
+.email:hover{
+    color: aqua !important;
 }

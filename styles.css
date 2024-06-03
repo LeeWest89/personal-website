@@ -1,0 +1,14 @@
+*, *::before, *::after {
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+/* Header Section */
+
+header {
+    min-height: 40px !important;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+  }

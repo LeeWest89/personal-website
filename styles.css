@@ -33,6 +33,19 @@ header {
     text-shadow: 0 0 15px rgb(0, 255, 255);
 }
 
+.dropdown-menu{
+    background-color: rgb(0, 0, 0) !important;
+    transform: translateX(-35%);
+}
+
+.dropdown-item {
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.rotate-90 {
+    transform: rotate(90deg);
+}
+
 /* Main Section */
 
 main {
@@ -47,10 +60,10 @@ main {
     font-size: 20px;
 }
 
-.email {
+.email, .project_link {
     transition: text-shadow 0.3s;
 }
 
-.email:hover{
+.email:hover, .project_link:hover{
     color: aqua !important;
 }

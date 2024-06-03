@@ -27,7 +27,9 @@ $(document).ready(function() {
     const sections = {
         about: `
         <div id="about" class="section text-white text-center font-weight-bold">
-        <p>Aspiring web developer with a full year of full stack development experience, possessing key strengths in front-end and back-end development. Demonstrating proficiency in collaborative team environments, focusing on creating dynamic, responsive websites and applications that prioritize user experience and performance.</p>
+        <p>Lee West is a Full Stack web developer passionate about creating beautiful, user-friendly websites. Over the past year, he has honed his skills in web development and teamwork. Lee is committed to continuously learning new technologies to advance his professional growth and make a significant impact in the tech industry.</p><br>
+        <p>He considers himself a continual learner, never satisfied with simply completing tasks without understanding the underlying reasons. This drive has led to the self-realization that he must balance his desire for knowledge with the ability to meet deadlines. His time at Atlas School has helped Lee develop this essential skill.</p><br>
+        <p>Lee believes that determination and drive are the keys to success in any endeavor, whether personal or professional. He is currently attending Atlas School, but is open to new opportunities. You can contact Lee at <a href="mailto:lee.west@atlasschool.com" class="email text-decoration-none text-white">lee.west@atlasschool.com</a>.</p><br>
         </div>
         `,
 
@@ -46,7 +48,8 @@ $(document).ready(function() {
             <p>A website to help gardeners gather information on local plant species that can thrive in the region.</p><br>
             <br>
             <img class="w-100" src="./images/Garden.jpg" alt="Garden of dreams homepage">
-            <p>Link: <a href="https://leewest89.github.io/GardenOfDreams/#" target="_blank" class="project_link text-decoration-none text-white">Garden of Dreams</a> <br></p>
+            <p>Link: <a href="https://leewest89.github.io/GardenOfDreams/#" target="_blank" class="project_link text-decoration-none text-white">Garden of Dreams</a><br></p>
+            <p>README Link: <a href="https://github.com/LeeWest89/GardenOfDreams/blob/main/README.md" target="_blank" class="project_link text-decoration-none text-white">Garden of Dreams README.md</a><br></p>
             <br>
         </div>
         `,
@@ -56,7 +59,8 @@ $(document).ready(function() {
             <p>A short choose your own adventure horror theme christmas game.</p> <br>
             <br>
             <img class="w-100" src="./images/Yule.jpg" alt="Yuletide Shiver gameplay page">
-            <p>Link: <a href="https://hacksprint-2023-6d4cc.web.app/" target="_blank" class="project_link text-decoration-none text-white">Yuletide Shiver</a></p> <br>
+            <p>Link: <a href="https://hacksprint-2023-6d4cc.web.app/" target="_blank" class="project_link text-decoration-none text-white">Yuletide Shiver</a></p><br>
+            <p>README Link: <a href="https://github.com/Jtownokie/HackSprint-2023/blob/main/README.md" target="_blank" class="project_link text-decoration-none text-white">Yuletide Shiver README.md</a><br></p>
             <br>
         </div>
         `,
@@ -65,7 +69,8 @@ $(document).ready(function() {
             <h1>AirBnB clone - Web dynamic:</h1>
             <p>Groundwork for a website featuring functional filters for user-selected locations.</p> <br>
             <br>
-            <p>Github Link: <a href="https://github.com/LeeWest89/holbertonschool-AirBnB_clone_v4" target="_blank" class="project_link text-decoration-none text-white">AirBnB clone - Web dynamic</a></p> <br>
+            <p>Github Link: <a href="https://github.com/LeeWest89/holbertonschool-AirBnB_clone_v4" target="_blank" class="project_link text-decoration-none text-white">AirBnB clone - Web dynamic</a></p><br>
+            <p>README Link: <a href="https://github.com/LeeWest89/holbertonschool-AirBnB_clone_v4/blob/master/README.md" target="_blank" class="project_link text-decoration-none text-white">AirBnB clone - Web dynamic README.md</a><br></p>
             <br>
         </div>
         `,

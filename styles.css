@@ -81,11 +81,11 @@ header {
 /* Main Section */
 
 main {
-    height: 93vh;
+    min-height: 93vh;
     display: flex !important;
     align-items: center !important;
-    margin-top: auto !important;
-    margin-bottom: auto !important;
+    overflow-y: auto;
+    margin-top: 0 !important;
 }
 
 .about, .contact, .project {
@@ -98,4 +98,96 @@ main {
 
 .email:hover, .project_link:hover{
     color: aqua !important;
+}
+
+/* Hamburger menu */
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+.my_img {
+    margin-top: 20px !important;
+}
+
+.section, .project {
+    margin-top: 20px !important;
+}
+
+@media (max-width: 576px) {
+    header{
+        width: 80%;
+        background: rgba(0, 0, 0, 0);
+    }
+
+    .nav-margin{
+        margin-bottom: 170px !important;
+        transition: margin-top 0.3s;
+    }
+
+    .DD_projects{
+        margin-bottom: 245px !important;
+        transition: margin-bottom 0.3s;
+    }
+
+    .head_box{
+        width: 100% !important;
+    }
+
+    .hamburger{
+        display: block;
+        z-index: 3;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform:translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform:translateY(-8px) rotate(-45deg);
+    }
+
+    .navbar-nav{
+        position: fixed;
+        left: -100%;
+        top: 0px;
+        gap: 0;
+        flex-direction: column;
+        background: rgb(0, 0, 0) !important;
+        background: rgba(0, 0, 0, 0.7) !important;
+        width: 75%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item{
+        margin: 5px 0 !important;
+    }
+
+    .navbar-nav.active{
+        left: 0;
+    }
+
+    .dropdown-menu {
+        left: 50%;
+        transform: translateX(16.5%);
+        width: 75%;
+        text-align: center;
+        flex-wrap: wrap;
+    }
 }

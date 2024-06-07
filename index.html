@@ -27,8 +27,8 @@
 </head>
 <body>
     <div class="main_body">
-        <header>
-            <div class="container mx-auto w-50 align-items-center">
+        <header class="mx-auto">
+            <div class="head_box container mx-auto align-items-center">
                 <nav class="navbar navbar-expand-sm">
                     <div class="navbar-container container">
                         <ul class="navbar-nav d-flex justify-content-around w-100">
@@ -36,7 +36,7 @@
                                 <a class="nav-link text-white " href="#" data-section="about">About Me</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a class="navbarDropdown nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Projects <span class="caret"><img id="icon" class="natural" src="./images/caret.svg" alt="caret"></span>
                                 </a>
                                 <div class="dropdown-menu pl-2 pr-2" aria-labelledby="navbarDropdown">
@@ -66,13 +66,18 @@
                                 </a>
                             </li>
                         </ul>
+                        <div class="hamburger">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
                     </div>
                 </nav>
             </div>
         </header>
         <main class="d-flex align-items-center">
             <div class="container mx-auto w-55">
-                <div class="row  align-items-center">
+                <div class="row align-items-center">
                     <div id="content" class="col-12 col-sm-7">
                     </div>
                     <div class="col-12 col-sm-5 text-center">

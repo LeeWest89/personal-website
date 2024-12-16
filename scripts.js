@@ -42,6 +42,26 @@ $(document).ready(function() {
         </div>
         `,
 
+        trove: `
+        <div class="project text-white text-center font-weight-bold pr-1 pl-1">
+            <h1>Trove:</h1>
+            <p>
+                <ul>
+                    <li>Parents can create accounts, set starting balances, and manage finances on behalf of their children through the Trove Family Tree.</li><br>
+                    <li>Children access the Trove Learning Center, complete quizzes, and manage personal goals like savings targets and loan repayment.</li><br>
+                    <li>Trove offers web-based parental controls and a mobile companion app for children, ensuring an engaging user experience.</li><br>
+                <ul>
+            </p>
+            <br>
+            <img class="pr-2 pl-2 w-100" src="./images/trove_banner.png" alt="Trove Banner">
+            <br>
+            <br>
+            <p>Link: <a href="https://trove-capstone.vercel.app/" target="_blank" class="project_link text-decoration-none text-white">Trove</a></p><br>
+            <p>README Link: <a href="https://github.com/michaellgans/trove-capstone/blob/main/README.md" target="_blank" class="project_link text-decoration-none text-white">Trove README.md</a><br></p>
+            <br>
+        </div>
+        `,
+
         garden: `
         <div class="project text-white text-center font-weight-bold pr-1 pl-1">
             <h1>Garden of Dreams:</h1>
@@ -61,16 +81,6 @@ $(document).ready(function() {
             <img class="pr-2 pl-2 w-100" src="./images/Yule.jpg" alt="Yuletide Shiver gameplay page">
             <p>Link: <a href="https://hacksprint-2023-6d4cc.web.app/" target="_blank" class="project_link text-decoration-none text-white">Yuletide Shiver</a></p><br>
             <p>README Link: <a href="https://github.com/Jtownokie/HackSprint-2023/blob/main/README.md" target="_blank" class="project_link text-decoration-none text-white">Yuletide Shiver README.md</a><br></p>
-            <br>
-        </div>
-        `,
-        airbnb: `
-        <div class="project text-white text-center font-weight-bold pr-1 pl-1">
-            <h1>AirBnB clone - Web dynamic:</h1>
-            <p>Groundwork for a website featuring functional filters for user-selected locations.</p> <br>
-            <br>
-            <p>Github Link: <a href="https://github.com/LeeWest89/holbertonschool-AirBnB_clone_v4" target="_blank" class="project_link text-decoration-none text-white">AirBnB clone - Web dynamic</a></p><br>
-            <p>README Link: <a href="https://github.com/LeeWest89/holbertonschool-AirBnB_clone_v4/blob/master/README.md" target="_blank" class="project_link text-decoration-none text-white">AirBnB clone - Web dynamic README.md</a><br></p>
             <br>
         </div>
         `,

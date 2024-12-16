@@ -57,7 +57,7 @@ $(document).ready(function() {
             <br>
             <br>
             <p>Link: <a href="https://trove-capstone.vercel.app/" target="_blank" class="project_link text-decoration-none text-white">Trove</a></p><br>
-            <p>README Link: <a href="https://github.com/michaellgans/trove-capstone/blob/main/README.md" target="_blank" class="project_link text-decoration-none text-white">Trove README.md</a><br></p>
+            <p>GitHub Link: <a href="https://github.com/michaellgans/trove-capstone" target="_blank" class="project_link text-decoration-none text-white">Trove GitHub Page</a><br></p>
             <br>
         </div>
         `,

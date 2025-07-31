@@ -36,7 +36,7 @@ $(document).ready(function() {
         contact: `
         <div id="contact" class="section text-white text-center font-weight-bold pr-1 pl-1">
             <p>Contact me at: <br>
-            Email: <a href="mailto:lee.west@atlasschool.com" class="email text-decoration-none text-white">lee.west@atlasschool.com</a> <br>
+            Email: <a href="mailto:lwest505@gmail.com" class="email text-decoration-none text-white">lwest505@gmail.com</a> <br>
             Phone: (405)448-1629
             </p>
         </div>
